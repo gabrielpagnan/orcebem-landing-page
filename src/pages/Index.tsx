@@ -1,26 +1,22 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
-import BenefitsSection from "@/components/BenefitsSection";
-import MockupsSection from "@/components/MockupsSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import PricingSection from "@/components/PricingSection";
-import LeadCaptureSection from "@/components/LeadCaptureSection";
-import Footer from "@/components/Footer";
+import FarmacinalisHeader from "@/components/FarmacinalisHeader";
+import FarmacinalisHero from "@/components/FarmacinalisHero";
+import FarmacinalisAbout from "@/components/FarmacinalisAbout";
+import FarmacinalisFormulas from "@/components/FarmacinalisFormulas";
+import FarmacinalisContact from "@/components/FarmacinalisContact";
+import FarmacinalisFooter from "@/components/FarmacinalisFooter";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
-      <HeroSection />
-      <HowItWorksSection />
-      <BenefitsSection />
-      <MockupsSection />
-      <TestimonialsSection />
-      <PricingSection />
-      <LeadCaptureSection />
-      <Footer />
+      <FarmacinalisHeader />
+      <FarmacinalisHero />
+      <FarmacinalisAbout />
+      <FarmacinalisFormulas />
+      <FarmacinalisContact />
+      <FarmacinalisFooter />
+      <WhatsAppButton />
       <ScrollToTop />
     </div>
   );
