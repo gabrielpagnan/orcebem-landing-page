@@ -14,15 +14,15 @@ const FarmacinalisHeader = () => {
   };
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4">
+    <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
+      <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <img 
               src="/lovable-uploads/a8fda2aa-05d0-4bdc-ad79-8d37a077611b.png" 
               alt="Farmacinalis Logo" 
-              className="h-12 w-auto"
+              className="h-14 w-auto transition-transform hover:scale-105"
             />
           </div>
 

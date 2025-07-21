@@ -49,8 +49,8 @@ const FarmacinalisAbout = () => {
               </div>
               <div className="text-center p-6 bg-primary-light rounded-lg">
                 <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h4 className="font-semibold text-foreground mb-2">Localização</h4>
-                <p className="text-sm text-muted-foreground">Fácil acesso e entrega para sua comodidade</p>
+                <h4 className="font-semibold text-foreground mb-2">Morro da Fumaça - SC</h4>
+                <p className="text-sm text-muted-foreground">Localizada em Santa Catarina, atendemos todo o Brasil</p>
               </div>
             </div>
           </div>
